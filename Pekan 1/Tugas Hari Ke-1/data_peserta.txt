@@ -2,5 +2,5 @@ Data Peserta Sanbercode Bootcamp ReactJS
 1. Nama: Dani Nasrullah
 2. Email: dani.nasrullah1998@gmail.com
 3. Sistem Operasi yang digunakan: Windows
-4. Akun Github: nasrullah013 -- https://github.com/nasrullah013/sanbercode-reactjs-0720.git
+4. Akun Github: nasrullah013
 5. Akun Telegram: @nasrullah013
