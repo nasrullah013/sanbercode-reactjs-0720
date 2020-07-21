@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/pattern.jpg);
+}
+
+header {
+    background: white;
+    height: 55px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+header img {
+    float: left;
+
+}
+
+nav {
+    float: right;
+    vertical-align: top;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 20px;
+    color: blue;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+.container {
+    width: 800px;
+    border-style: groove;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+table tr td {
+    padding: 0px 50px 10px 0px;
+    vertical-align: bottom;
+}
+
+section {
+    width: 1360px;
+    height: 800px;
+    margin: 70px auto 27px;
+    background: white;
+    padding: 10px;
+}
+
+#article-list a{
+    text-decoration: none;
+}
+
+.object {
+    margin: 5px;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+
+}
+
+.object p {
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    background: black;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}
+
+/* radio */
+
+.radio {
+    /* font-size: 24px; */
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    /* color:; */
+    position: relative;
+    padding-left: 20px;
+}
+
+
+.radio input[type="radio"]{
+    display: none;
+}
+
+.radio span{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 1px solid #00aaee;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.radio span::after {
+    content: "";
+    height: 9px;
+    width: 9px;
+    background: #00aaee;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+
+.radio input[type="radio"]:checked ~ span::after{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+/* radio end */
